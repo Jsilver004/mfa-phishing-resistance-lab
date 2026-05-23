@@ -1,5 +1,7 @@
 # MFA Phishing Resistance Lab
 
+## About
+
 This project analyzes the phishing resistance of common multi-factor authentication (MFA) methods under adversarial-in-the-middle (AiTM) attack scenarios.
 This lab compares:
   - SMS- One-Time passwords (OTP)
@@ -11,3 +13,5 @@ This project includes:
   - Simulated phishing infrastructure
   - Controlled phishing attack testing
   - Comparative security analysis
+
+# 3. Research Question
