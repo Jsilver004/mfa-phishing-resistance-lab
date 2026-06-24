@@ -78,13 +78,14 @@ The user registered a WebAuthn credential.
 ![VLAN Creation](screenshots/WebRegisWork.png)
 
 Authentication fails without a signature
+
 ![VLAN Creation](screenshots/WebRegis.png)
 ![VLAN Creation](screenshots/WebLogFail.png)
 
 
 ### Step 2: Legitimate Authentication
 
-Authentication succeeded on the legitimate domain
+Authentication succeeded on the legitimate domain if the domain is legitimate and signature matches the user's
 
 ![VLAN Creation](screenshots/WebRegis.png)
 ![VLAN Creation](screenshots/WebDash.png)
