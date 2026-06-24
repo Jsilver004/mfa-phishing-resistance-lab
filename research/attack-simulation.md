@@ -54,13 +54,38 @@ The victim entered the OTP into the phishing page.
 
 The attacker reused the capture OTP before expiration* and gained admin access to the dashboard.
 
-## Result: Successful Phishing Attacks
+**Result: Successful Phishing Attacks**
 
 
+## 5. WebAuthn Attack Walkthrough
 
+### Step 1: User Registration
 
-## 5. HOTP Attack Walkthrough
+The user registered a WebAuthn credential.
 
-## 6. WebAuthn Attack Walkthrough
+(SS)
 
-## 7. Summary
+### Step 2: Legitimate Authentication
+
+Authentication succeeded on the legitimate domain
+
+(SS)
+
+## Step 3/4: Phishing Attempt/Authentication Failure
+
+The phishing site attempted to request authentication.
+Authenticator refuses to sign the challenge because of the illegitimate domain (Does not match registered domain)
+
+(SS)
+
+**Result: Attack Failed**
+
+## 6. Summary
+
+| Method | Phishing Outcome |
+| --- | --- |
+| SMS-OTP | Successful |
+| HOTP | Successful |
+| WebAuthn | Fail |
+
+The simulation demonstrated that OTP-based authentication with transmitted credentials remained vulnerable to credential interception and relay attacks, while WebAuthn prevented phishing through origin-bound authenication.
