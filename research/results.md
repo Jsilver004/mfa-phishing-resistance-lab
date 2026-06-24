@@ -82,9 +82,9 @@ Images:
 
 1. Registering WebAuthn on a device:
 
-    ![VLAN Creation](screenshots/WebRegisWork.png)
+![VLAN Creation](screenshots/WebRegisWork.png)
 
-3. *Authenticating normally*:
+2. *Authenticating normally*:
 
 ![VLAN Creation](screenshots/WebRegis.png)
 ![VLAN Creation](screenshots/WebDash.png)
