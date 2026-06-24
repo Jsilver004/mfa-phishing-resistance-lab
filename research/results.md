@@ -27,7 +27,8 @@ Security for OTP was dependent on timing rather than innate phishing resistance.
 Images:
 
 
-*Phishing Login Screen*:
+*Phishing Login Screen* :
+
 
 ![VLAN Creation](screenshots/LoginPhish.png)
 
