@@ -56,11 +56,15 @@ The attacker used the stolen credentials to initiate authentication on the legit
 
 The victim entered the OTP into the phishing page.
 
-(Screenshots)
+![VLAN Creation](screenshots/PhishRedirect.png)
+
+*The user is given a fake error screen and sent to the real site while the attacker utilizes the stolen credentials*
 
 ### Step 4: Account Compromise
 
 The attacker reused the capture OTP before expiration* and gained admin access to the dashboard.
+
+![VLAN Creation](screenshots/DashImage.png)
 
 **Result: Successful Phishing Attacks**
 
