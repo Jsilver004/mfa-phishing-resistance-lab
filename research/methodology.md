@@ -59,6 +59,8 @@ The phishing site collected:
 ## 6. Attack Workflow
 ### Step 0: The Real Site
 
+![VLAN Creation](../screenshots/Images/Ip-Routing.png)
+
 ### Step 1: Victim Accesses Phishing Site
 
 ### Step 2: Credentials Captured
