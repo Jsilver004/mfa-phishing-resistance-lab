@@ -24,6 +24,21 @@ SMS-OTP demonstrated high vulnerability to phishing attacks when the attackers a
 
 Security for OTP was dependent on timing rather than innate phishing resistance.
 
+Images:
+
+*Phishing Login Screen*
+![VLAN Creation](screenshots/LoginPhish.png)
+
+*Phishing OTP entry (after attacker has used the stolen login credentials)*
+![VLAN Creation](screenshots/LoginOTPPhish.png)
+
+*Redirect from the phishing site, indicating an error occured with a regular login*
+![VLAN Creation](screenshots/PhishRedirect.png)
+
+*Compromised Admin Dashboard access*
+![VLAN Creation](screenshots/DashImage.png)
+
+
 ## 2. HOTP Results
 HOTP remained highly vulnerable across all testing conditions
 
@@ -39,6 +54,9 @@ HOTP remained highly vulnerable across all testing conditions
 - Delayed attacks were still frequently successful
 
 This prtocol provided little protection against credential harvesting.
+
+
+
 
 ## 3. WebAuthn Results
 WebAuthn proved to successfully resist all phishing attacks.
