@@ -64,6 +64,8 @@ No reusable authentication secrets were exposed due to no credentials every bein
    |HOTP| 97% | 77% | 53% |
    | WebAuthn | 0% | 0% | 0% |
 
+![VLAN Creation](screenshots/CompareChart.png)
+
 ## 5. Key Findings
 
 ### SMS-OTP
