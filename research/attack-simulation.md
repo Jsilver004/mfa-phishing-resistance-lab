@@ -36,7 +36,7 @@ Captured information was then used to simulate attacker access to the legitimate
 
 The victim entered credentials into the phishing website.
 
-[VLAN Creation](../screenshots/LoginPhish.png)
+![VLAN Creation](screenshots/LoginPhish.png)
 
 ### Step 2: OTP Generation
 
