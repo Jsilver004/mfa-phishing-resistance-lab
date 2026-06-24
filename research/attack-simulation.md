@@ -14,11 +14,11 @@ Authentication followed this process:
 
 1. The user enters a username and password
 
-![VLAN Creation](screenshots/LoginReg.png)
+   ![VLAN Creation](screenshots/LoginReg.png)
    
 2. MFA challenge is generated
 
-![VLAN Creation](screenshots/LoginOTP.png)
+   ![VLAN Creation](screenshots/LoginOTP.png)
 
 3. User submits authentication factor
 
