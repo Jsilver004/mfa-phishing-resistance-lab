@@ -20,12 +20,10 @@ Authentication followed this process:
 
    ![VLAN Creation](screenshots/LoginOTP.png)
 
-3. User submits authentication factor
+3. User submits authentication factor and gains admin access to the dashboard
 
-![VLAN Creation](screenshots/DashImage.png)
+   ![VLAN Creation](screenshots/DashImage.png)
 
-
-4. User gains admin access to the dashboard
 
 ## 3. Phishing Environment
 
