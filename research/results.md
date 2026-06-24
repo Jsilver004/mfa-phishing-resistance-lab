@@ -81,9 +81,10 @@ No reusable authentication secrets were exposed due to no credentials every bein
 Images:
 
 1. Registering WebAuthn on a device:
-   ![VLAN Creation](screenshots/WebRegisWork.png)
 
-2. *Authenticating normally*:
+    ![VLAN Creation](screenshots/WebRegisWork.png)
+
+3. *Authenticating normally*:
 
 ![VLAN Creation](screenshots/WebRegis.png)
 ![VLAN Creation](screenshots/WebDash.png)
