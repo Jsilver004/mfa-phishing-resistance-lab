@@ -75,7 +75,11 @@ The attacker reused the capture OTP before expiration* and gained admin access t
 
 The user registered a WebAuthn credential.
 
-(SS)
+![VLAN Creation](screenshots/WebRegis.png)
+![VLAN Creation](screenshots/WebRegisWork.png)
+![VLAN Creation](screenshots/WebLogFail.png)
+
+
 
 ### Step 2: Legitimate Authentication
 
