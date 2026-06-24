@@ -75,24 +75,26 @@ The attacker reused the capture OTP before expiration* and gained admin access t
 
 The user registered a WebAuthn credential.
 
-![VLAN Creation](screenshots/WebRegis.png)
 ![VLAN Creation](screenshots/WebRegisWork.png)
-![VLAN Creation](screenshots/WebLogFail.png)
 
+Authentication fails without a signature
+![VLAN Creation](screenshots/WebRegis.png)
+![VLAN Creation](screenshots/WebLogFail.png)
 
 
 ### Step 2: Legitimate Authentication
 
 Authentication succeeded on the legitimate domain
 
-(SS)
+![VLAN Creation](screenshots/WebRegis.png)
+![VLAN Creation](screenshots/WebDash.png)
 
 ## Step 3/4: Phishing Attempt/Authentication Failure
 
 The phishing site attempted to request authentication.
 Authenticator refuses to sign the challenge because of the illegitimate domain (Does not match registered domain)
 
-(SS)
+![VLAN Creation](screenshots/WebPhishFail.png)
 
 **Result: Attack Failed**
 
