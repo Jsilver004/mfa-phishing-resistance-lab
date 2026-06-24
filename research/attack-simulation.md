@@ -22,6 +22,9 @@ Authentication followed this process:
 
 3. User submits authentication factor
 
+![VLAN Creation](screenshots/DashImage.png)
+
+
 4. User gains admin access to the dashboard
 
 ## 3. Phishing Environment
