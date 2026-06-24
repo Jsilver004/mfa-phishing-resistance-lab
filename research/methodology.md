@@ -1,6 +1,6 @@
 # Methodology
 
-## Overview
+## 1. Overview
 
 This research evaluates the phishing resistance of 3 Multi-Factor Authentication (MFA) Protocols:
 - SMS-OTP
@@ -9,7 +9,7 @@ This research evaluates the phishing resistance of 3 Multi-Factor Authentication
 
 A controlled phishing environment was developed using a Django-based ticketing application and a phishing clone version designed to simulate an adversary in the middle (AiTM) attack.
 
-## Research Objective
+## 2. Research Objective
 
 The objective of this experiment was to compare how different MFA systems perform against phishing and adversary-in-the-middle attacks under controlled testing environments.
 
@@ -20,7 +20,7 @@ The study focused on:
 - Origin Binding
 - Authentication Architecture
 
-## Authentication Methods Evaluated
+## 3. Authentication Methods Evaluated
 
 ### SMS-OTP
 Server-generated one time passwords that are delivered via text message after successful username/password authentication
@@ -31,7 +31,7 @@ Counter-based HMAC one-time password system using shared secrets between the cli
 ### WebAuthn
 Public-key authentication system using origin-bound asymmetric cryptography and browse-enforced verification
 
-## Experimental Environment
+## 4. Experimental Environment
 Testing was performed using:
 - Python
 - Django
@@ -42,7 +42,7 @@ Testing was performed using:
 
 The experiment used a custom-built cybersecurity ticketing system with MFA-enabled authentication
 
-## Phishing Design Simulation
+## 5. Phishing Design Simulation
 A phishing site was created to imitate the legitimate authentication portal.
 
 The phishing workflow simulated:
