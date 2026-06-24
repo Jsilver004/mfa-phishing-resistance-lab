@@ -50,7 +50,7 @@ The victim entered credentials into the phishing website.
 
 The attacker used the stolen credentials to initiate authentication on the legitimate website
 
-![VLAN Creation](screenshots/LoginPhish.png)
+![VLAN Creation](screenshots/LoginOTPPhish.png)
 
 ### Step 3: OTP Theft
 
