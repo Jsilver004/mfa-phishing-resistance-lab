@@ -61,8 +61,7 @@ HOTP remained highly vulnerable across all testing conditions
 
 This prtocol provided little protection against credential harvesting.
 
-
-
+*Images identical to SMS-OTP*
 
 ## 3. WebAuthn Results
 WebAuthn proved to successfully resist all phishing attacks.
@@ -79,6 +78,21 @@ WebAuthn proved to successfully resist all phishing attacks.
 - Origin binding prevented credential harvesting.
 
 No reusable authentication secrets were exposed due to no credentials every being in transit.
+
+Images:
+
+1. Registering WebAuthn on a device:
+   ![VLAN Creation](screenshots/WebRegisWork.png)
+
+2. *Authenticating normally*:
+
+![VLAN Creation](screenshots/WebRegis.png)
+![VLAN Creation](screenshots/WebDash.png)
+
+3. *Phishing authentication rejected due to incorrect domain*
+
+![VLAN Creation](screenshots/WebPhishFail.png)
+
 
 ## 4. Comparative Results
   
