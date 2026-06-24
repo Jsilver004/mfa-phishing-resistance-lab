@@ -27,20 +27,20 @@ Security for OTP was dependent on timing rather than innate phishing resistance.
 Images:
 
 
-*Phishing Login Screen* :
+1. *Phishing Login Screen* :
 
 
 ![VLAN Creation](screenshots/LoginPhish.png)
 
-*Phishing OTP entry (after attacker has used the stolen login credentials)*:
+2. *Phishing OTP entry (after attacker has used the stolen login credentials)*:
 
 ![VLAN Creation](screenshots/LoginOTPPhish.png)
 
-*Redirect from the phishing site, indicating an error occured with a regular login*:
+3. *Redirect from the phishing site, indicating an error occured with a regular login*:
 
 ![VLAN Creation](screenshots/PhishRedirect.png)
 
-*Compromised Admin Dashboard access*:
+4. *Compromised Admin Dashboard access*:
 
 ![VLAN Creation](screenshots/DashImage.png)
 
