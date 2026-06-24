@@ -17,10 +17,8 @@ SMS-OTP demonstrated high vulnerability to phishing attacks when the attackers a
    | 60 Seconds | 0% |
 
 ### Observation
-Immediate Attacks were almost always successful (failure can be due to connection never sending the message)
-
-Success rates decreased as delay increased (connectivity, user re-request, etc)
-
-OTP expiration limited attacker effectiviness after 60 seconds.
+- Immediate attacks were almost always successful (failure can be due to connection never sending the message)
+- Success rates decreased as delay increased (connectivity, user re-request, etc)
+- OTP expiration limited attacker effectiviness after 60 seconds.
 
 Security for OTP was dependent on timing rather than innate phishing resistance.
