@@ -106,5 +106,8 @@ This research did NOT account for:
 
 ## 11. Ethical Considerations
 This project was conducted strictly for educational and defensive cybersecurity research purposes.
+
 All phishing simulations were performed in a controlled local environment with no real users or external systems involved.
+
+# FURTHER ANALYSIS WILL BE IN results.md
 
