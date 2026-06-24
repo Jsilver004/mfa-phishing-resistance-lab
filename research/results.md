@@ -7,7 +7,8 @@ Testing was conducted using 0 second(immediate/0, 30 second and 60 second attack
 
 ---
 
-## SMS-OTP demonstrated high vulnerability to phshing attacks when the attackers acted quickly after credential capture.
+## SMS-OTP 
+SMS-OTP demonstrated high vulnerability to phishing attacks when the attackers acted quickly after credential capture.
 
    | Delay Before Attack | Success Rate |
    |---|---|
