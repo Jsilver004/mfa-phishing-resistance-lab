@@ -3,8 +3,9 @@
 ## Overview
 The objective of this experiment was to compare the phishing resistance of SMS-OTP, HOTP, and WebAuthn under simulated adversary-in-the-middle (AITM) attack conditions.
 
-Testing was conducted using 0 second(immediate/0, 30 second and 60 second attack delays to evaluate if/how timing affected attack success rates.
+Testing was conducted using 0 second(immediate), 30 second and 60 second attack delays to evaluate if/how timing affected attack success rates.
 
+30 trials for each authentication protocol were tested.
 ---
 
 ## 1. SMS-OTP Results 
