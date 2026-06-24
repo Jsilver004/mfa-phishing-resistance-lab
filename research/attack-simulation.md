@@ -13,8 +13,15 @@ The legitimate application was a Django-based incident reporting ticketing syste
 Authentication followed this process:
 
 1. The user enters a username and password
+
+![VLAN Creation](screenshots/LoginReg.png)
+   
 2. MFA challenge is generated
+
+![VLAN Creation](screenshots/LoginOTP.png)
+
 3. User submits authentication factor
+
 4. User gains admin access to the dashboard
 
 ## 3. Phishing Environment
@@ -42,7 +49,7 @@ The victim entered credentials into the phishing website.
 
 The attacker used the stolen credentials to initiate authentication on the legitimate website
 
-(Screenshot)
+![VLAN Creation](screenshots/LoginPhish.png)
 
 ### Step 3: OTP Theft
 
