@@ -63,3 +63,29 @@ No reusable authentication secrets were exposed due to no credentials every bein
    | SMS-OTP | 97% | 73% | 0% |
    |HOTP| 97% | 77% | 53% |
    | WebAuthn | 0% | 0% | 0% |
+
+## 5. Key Findings
+
+### SMS-OTP
+- Vulnerable to real-time phishing attacks.
+- Protection primarily came from short expiration window (60 seconds).
+- Susceptible to credential interception and replay attacks.
+
+### HOTP
+- Vulnerable to phishing attacks regardless of timing.
+- Shared-secret architecture increased attack exposure.
+- Longer credential validity increased attackers success rates.
+
+### WebAuthn
+- Successfully prevented all phishing attempts.
+- Authentication remained bound to the legitimate domain.
+- Assymetric cryptography eliminated reusable credentials.
+
+## 6. Interpretation
+The results indicate a clear security hierarchy among the tested authentication methods.
+
+WebAuthn provided the strongest protection against phishng/AITM attacks due to its use of origin biound asymmetric cryptography. SMS-OTP and HOTP both relied on transferable credentials that could be intercepted and used by attackers.
+
+While SMS-OTP benefited from slight expiration based protection, HOTP remained vulnerable due to longer period its counter based design. Neither approach provided meaningful resistance to credential harvesting.
+
+Overall, WebAuthn proved to have the highest level of phishing resistance and consistently prevented account compromise across all testing scenario.
